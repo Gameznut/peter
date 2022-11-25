@@ -23,12 +23,12 @@ onMounted(() => {
     window.addEventListener('scroll', () => {
         if (window.scrollY > 10) {
             // navigation.value.classList.remove('bg-[white]')
-            navigation.value.classList.add('!bg-[red]')
+            // navigation.value.classList.add('!bg-[red]')
             navigation.value.classList.add('!py-[.5rem]')
 
         }
         else {
-            navigation.value.classList.remove('!bg-[red]')
+            // navigation.value.classList.remove('!bg-[red]')
             navigation.value.classList.remove('!py-[.5rem]')
         }
 

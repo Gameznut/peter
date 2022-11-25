@@ -50,7 +50,13 @@
 </template>
 
 <script setup>
-
+definePageMeta({
+    title: 'My home page',
+})
+useHead({
+    title: 'Waffles',
+    
+})
 </script>
 
 <style scoped>
